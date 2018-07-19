@@ -2,6 +2,8 @@
 
 namespace Procedo;
 
+use Exception;
+
 class Geolocalizacao
 {
     private $chave;

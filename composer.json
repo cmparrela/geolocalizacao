@@ -1,0 +1,7 @@
+{
+    "name": "cmparrela/geolocalizacao-google-maps",
+    "description": "Classe para fazer requisição do google maps api",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
+}

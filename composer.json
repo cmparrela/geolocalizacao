@@ -1,14 +1,20 @@
 {
     "name": "cmparrela/geolocalizacao-google-maps",
-    "description": "Classe para fazer requisição do google maps api",
-    "minimum-stability": "stable",
+    "description": "Classe para ajudar nas requisições com o Google Maps",
+    "type": "library",
     "authors": [
         {
             "name": "Cristopher",
             "email": "cmparrela@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "php": "^5.3.3 || ^7.0"
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Procedo": "src/"
+        }
     }
 }
